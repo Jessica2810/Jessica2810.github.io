@@ -23,12 +23,6 @@ h2 {
 	text-transform: uppercase;
 }
 
-#slogan {
-	font-style: italic;
-	font-weight: bold;
-	color: white;
-}
-
 .centered-image {
 	display: inline-block;
 	margin-left: auto;
@@ -38,4 +32,10 @@ h2 {
 .centered-text {
 	text-align: center;
 
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+	color: white;
 }
