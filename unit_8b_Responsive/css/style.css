@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Lobster');
+
+
+body {
+	background: url("../images/dust_scratches.png");
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em
+}
+
+h1, body {
+	background: url("../images/dust_scratches.png");
+	color: #bf4aa8;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 48px
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header {
+	background-color: white;
+	padding: 1.5em;
+}
+
+nav {
+	background: url("../images/dust_scratches.png");
+	background-color: white;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: none;
+}
+
+a {
+	background-color: #51d0de;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+nav a:last-child {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	background: orange;
+}
+footer {
+	background: url("../images/dust_scratches.png");
+	background-color: white;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.profile-pic {
+	height: 200px;
+	width: 200px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	height: 0;
+}
+
+.centered-image {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 500px;
+}
+
+.centered-text {
+	text-align: center;
+
+}
+
+#section-one {
+	background: url("../images/full-bloom.png");
+	background-color: #FFE2B8;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#section-two {
+	background: url("../images/hypnotize.png");
+	background-color: #b9ff67;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#section-three {
+	background: url("../images/regal.png");
+	background-color: #FFE2B8;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#section-four {
+	background: url("../images/memphis-mini.png");
+	background-color: #b9ff67;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#section-five {
+	background: url("../images/white-waves.png");
+	background-color: #FFE2B8;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#section-six {
+	background: url("../images/dust_scratches.png");
+	background-color: #FFE2B8;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#wrapper {
+	background-image: url("../images/morocco-blue.png");
+	background-color: #51d0de;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+	color: #bf4aa8;
+}
+
+#footer-text {
+	padding: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+	nav {
+		float: none;
+	}
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
+	#wrapper {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	nav {
+		float: none;
+	}
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
+	.centered-image {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+	#wrapper {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	h1 {
+		font-size: 1.5em;
+		display: inline;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	p {
+		margin: 1.8em .6em 0;
+	}
+	nav a {
+		margin: 0 1em 1em;
+	}
+	nav a:last-child {
+		position: fixed;
+		bottom: 10em;
+		right: 1em;
+	}
+	a {
+	padding: 7px;
+	width: 175px;
+	display: block;
+	}
+	section, div {
+		width: 83%;
+		padding: .6em;
+	}
+	.profile-pic {
+		width: auto;
+		max-width: 75%;
+		height: 75%;		
+	}
+	.centered-image {
+		width: auto;
+		max-width: auto;
+		height: auto;
+	}
+	#wrapper {
+		width: 85%;
+	}
+}
